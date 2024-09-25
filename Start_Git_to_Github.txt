@@ -1,0 +1,67 @@
+Hello I am Here to Start The Git Folder to Repository on Github
+
+Create a folder a open it in VS Code 
+Must be sure you are logged in VS Code with your Same Git Account
+Now Follow the Steps
+
+Start Terminal and type
+*********** [Step 01] ***********
+>git --version
+git version 2.45.2.windows.1
+
+*********** [Step 02] ***********
+>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+*********** [Step 03] ***********
+H:\Learning 2024\JAVA>git init
+Initialized empty Git repository in H:/Learning 2024/JAVA/.git/
+
+This will Initialized the Folder to Github Working 
+it create a .git hidden folder to work with Github 
+
+*********** [Step 04] ***********
+>git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+But If You Want to Initialized Git At Main branch not on master then do
+
+*********** [Step 05] ***********
+H:\Learning 2024\JAVA>git init -b main
+Initialized empty Git repository in H:/Learning 2024/JAVA/.git/
+
+Here is the main  is the branch name  We can make n numbers of branch like this and upload the data on it
+
+H:\Learning 2024\JAVA>git status       
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+*********** [Step 06] ***********
+Now Add Files on Github
+
+When we Want to Git to track our files so we make that files in staging area
+When You See Capital 'U' Before File Name that means it is at untracked mode
+
+to make it tracked 
+add it staging area
+
+So Here is steps 
+
+
+*********** [Step 07] ***********
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Start Git to Github.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+>git add [filename] enter
+When you press enter it will become in staging area means it will track by Git
+There is a capital 'A' Sign in before file
