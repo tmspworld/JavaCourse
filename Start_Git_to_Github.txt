@@ -65,3 +65,48 @@ nothing added to commit but untracked files present (use "git add" to track)
 >git add [filename] enter
 When you press enter it will become in staging area means it will track by Git
 There is a capital 'A' Sign in before file
+
+H:\Learning 2024\JAVA>git add Start_Git_to_Github.txt
+
+H:\Learning 2024\JAVA>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Start_Git_to_Github.txt
+
+Git log command use to see the Git Repo status
+
+*********** [Step 08] ***********
+H:\Learning 2024\JAVA>git log
+fatal: your current branch 'main' does not have any commits yet
+
+*********** [Step 09] ***********
+Now to commit the files with the message to check who is submitting the file 
+
+H:\Learning 2024\JAVA>git commit -m "First Commt"
+[main (root-commit) 810e270] First Commt
+ 1 file changed, 67 insertions(+)
+ create mode 100644 Start_Git_to_Github.txt
+
+ Now we will see the Log of commit
+ H:\Learning 2024\JAVA>git log
+commit 810e270b289006f6d2aeb75def3e79d011ed4d6e (HEAD -> main)
+Author: tmspworld <gagamandeep@gmail.com>
+Date:   Wed Sep 25 23:03:10 2024 +0530
+
+    First Commt
+
+
+
+    *************** All this things ahpppened on local machine
+    Now we want to add it local repo to the Github Remote Repository
+    For that
+    You Have to create a Repository on Git site
+
+    Now we see the link here of the repository so there will be https and SSH
+
+    we will select the SSH
+    
